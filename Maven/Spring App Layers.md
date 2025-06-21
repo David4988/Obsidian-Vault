@@ -1,6 +1,6 @@
   
   
--  Each **SpringBoot App** can be thought of as 3 layers  
+-  Each **Spring-Boot App** can be thought of as 3 layers  
   
 1. `Presentation Layer` - exposes endpoints, acts as a front-end   
   
