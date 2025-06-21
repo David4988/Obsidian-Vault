@@ -1,0 +1,1 @@
+- Spring Boot uses **component scanning** to **discover** Spring beans and **where the beans** are **needed**
