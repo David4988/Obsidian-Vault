@@ -155,18 +155,18 @@ public void destroy() {
 
 ## 🧰 6. ANNOTATION POWER-UP CHEAT SHEET
 
-|Annotation|Use|
-|---|---|
-|`@Component`|Generic bean|
-|`@Service`|Business logic layer|
-|`@Repository`|DB interaction layer|
-|`@Controller`|Web layer (with views)|
-|`@RestController`|Web layer (returns JSON)|
-|`@Autowired`|Injects dependencies|
-|`@Bean`|Manual bean registration|
-|`@Configuration`|Java-based config class|
-|`@PostConstruct`|Init method|
-|`@PreDestroy`|Cleanup method|
+| Annotation        | Use                      |
+| ----------------- | ------------------------ |
+| `@Component`      | Generic bean             |
+| `@Service`        | Business logic layer     |
+| `@Repository`     | DB interaction layer     |
+| `@Controller`     | Web layer (with views)   |
+| `@RestController` | Web layer (returns JSON) |
+| `@Autowired`      | Injects dependencies     |
+| `@Bean`           | Manual bean registration |
+| `@Configuration`  | Java-based config class  |
+| `@PostConstruct`  | Init method              |
+| `@PreDestroy`     | Cleanup method           |
 
 ---
 
