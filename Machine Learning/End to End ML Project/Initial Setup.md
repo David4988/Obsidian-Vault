@@ -114,13 +114,8 @@ def get_requirements(file_path)->List[str]:`
     
 
 #### 💥 Inside:
-```python
-with open('requirements.txt') as file_obj:
-```
 
-
-> Opens the file (💀 you hardcoded the path tho — you passed `file_path` but didn't use it 😭)  
-> Should be:
+> Opens the file 
 
 ```python
 with open(file_path) as file_obj:
@@ -161,4 +156,12 @@ def get_requirements(file_path: str) -> List[str]:
 	     if HYPHEN_E_DOT in requirements:
 	         requirements.remove(HYPHEN_E_DOT)
      return requirements`
+```
+
+## Install all `dependencies`
+
+- Install all **dependencies** from `requirements.txt` using `pip-install`
+
+```bash
+pip install -r requirements.txt
 ```
